@@ -1,4 +1,9 @@
 # FUNÇÕES JAVASCRIPT
+### O que são funções?
+Funções como o nome já diz, são blocos de código que executa uma terminada função. Este recurso é utilizado para evitar repetições de código.
+
+Ou seja em vez de escrever um trecho de código varias vezes, criamos uma função que contenha esse trecho de código, e ao decorrer do desenvolvimento invocamos essa função que o trecho de código é executado automaticamente.
+
 #### 1) Exemplo de função que calcula idade de uma pessoa
 
 Esta função recebe um parâmetro (anoNascimento) e retorna um inteiro.
