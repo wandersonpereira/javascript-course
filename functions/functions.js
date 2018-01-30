@@ -12,8 +12,8 @@ console.log(minhaIdade(1990));
 
 /*===========================================================================*/
 
-//2) Criaremos uma função que retorna uma stringo contendo meu nome
-// Nota-se que no caso desta função não recebe nenhum paramêtro.
+//2) Criaremos uma função que retorna uma string contendo meu nome
+// Nota-se que no caso desta função não recebe nenhum parâmetro.
 function buscarMeuNome() {
     // Retorna uma string com meu nome completo
     return 'Wanderson Pereira';
@@ -34,7 +34,7 @@ function calcularMediaTrimestre(nota1, nota2, nota3, nota4) {
 console.log(calcularMediaTrimestre(10, 20, 30, 40));
 
 /*===========================================================================*/
-// Como já sabemos as funçẽos podem retornar valores ou não, como também podem receber paramêtros ou não.
+// Como já sabemos as funçẽos podem retornar valores ou não, como também podem receber parâmetros ou não.
 // Faremos uma função que valida se um determinado número é positivo, e caso seja, irá gerar um log informando
 // que o número é positovo, caso contrário irá informar que o número é negativo
 function validaNumeroPositivo(numero) {
@@ -58,11 +58,11 @@ validaNumeroPositivo(10);
 validaNumeroPositivo(-20);
 
 /*===========================================================================*/
-// Agora iremos criar uma função genérica e utilizaremos ela em várias parte do código
+// Agora iremos criar uma função genérica e utilizaremos ela em várias parte do código.
 // Essa função deverá retonar se o usuário é maior de idade
 function usuarioMaiorIdade(idade) {
     // Notamos que retornamos diretamente a validação 
-    // Neste caso ele irá retornar true ou false dependendo do valor passado no paramêtro idade
+    // Neste caso ele irá retornar true ou false dependendo do valor passado no parâmetro idade
     /**
      Também poderiamos usar a validação da seguinte forma
      if (idade >= 18) {
@@ -98,7 +98,7 @@ function entrarBoate(nomeUsuario, idadeUsuario) {
 }
 
 // Agora criaremos uma função que valida se o usuário pode dirigir
-// Essa função receberá dois paramêtros, idadeMotorista e um boleando informado se a carteira esta vencida
+// Essa função receberá dois parâmetros, idadeMotorista e um boleando informado se a carteira esta vencida
 function habilitado(idadeMotorista, carteiraVencida) {
     // Usamos novamente a chamada da função maior idade, para validar 
     // se o motorista contém um dos critérios para conduzir um veiculo
@@ -122,7 +122,7 @@ function habilitado(idadeMotorista, carteiraVencida) {
 entrarBoate('Tiago', 10); // Imprime o texto 'Thiago, você não pode entrar na boate!'
 entrarBoate('José', 25); // Imprime o texto 'José, você pode entrar na boate!'
 
-//Agora vamos chamar a função que informa se o motorista esta habilitado
+// Agora vamos chamar a função que informa se o motorista esta habilitado
 habilitado(20, false); // Imprime o texto 'Vamos apreender seu veiculo'
 habilitado(15, false); // Imprime o texto 'Vamos apreender seu veiculo'
 habilitado(22, true); // Imprime o texto 'Pode passar da blits'
