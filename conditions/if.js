@@ -12,7 +12,7 @@ if (minhaIdade > maiorIdade) {
 }
 
 /*
- * Para faciliar nossa leitura do código assima entendemos que:
+ * Para faciliar a leitura do código assima entendemos que:
  * 
  * SE (27 FOR MAIOR QUE 18) {
  *   FAÇO ALGUMA AÇÃO
